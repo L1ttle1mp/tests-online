@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(199, 87, 117);
+}
+header{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+button{
+   margin: 30px auto;
+   padding: 30px auto;
+   display: flex;
+   justify-content: center;
+   border: 16px;
+   border-radius: 8px;
+   font-size: 40px;
+}
+button:hover{
+    color: blueviolet;
+}
+.answer{
+    display: none;
+}
+footer{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    size: 300px;
+}
